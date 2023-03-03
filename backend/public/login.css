@@ -26,7 +26,15 @@ body{
     overflow: hidden;
 }
 
-.container .forms{
+.container .rforms{
+    width: 200%;
+    display: flex;
+    align-items: center;
+    height: 643px;
+    transition: height 0.2s ease;
+}
+
+.container .lforms{
     width: 200%;
     display: flex;
     align-items: center;
